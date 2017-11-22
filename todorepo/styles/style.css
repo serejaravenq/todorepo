@@ -1,0 +1,43 @@
+form {
+    display: inline-block;
+}
+.form-group {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#todo {
+    margin: 0 auto;
+    width: 500px;
+}
+
+a.close {
+    float: right;
+}
+
+.checkbox {
+    float: left;
+}
+
+.textfield {
+    display: none;
+}
+
+.edit {
+    display: block;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+[active='false'] {
+    text-decoration: line-through;
+}
+
+[active='true'] {
+    text-decoration: none;
+}
+input[type='number'] {
+    width: 35px;
+}
